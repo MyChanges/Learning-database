@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/search_bar_height"
+    android:paddingBottom="8.0dip"
+    android:paddingTop="8.0dip">
+
+    <RelativeLayout
+        android:id="@+id/libui_titlebar_search_box"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/watch_corner"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/libui_titlebar_searchbox_icon"
+            android:layout_width="18.0dip"
+            android:layout_height="18.0dip"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="9.0dip"
+            android:scaleType="fitXY"
+            android:src="@mipmap/search" />
+
+        <ImageView
+            android:id="@+id/libui_dimensional_code_scanner"
+            android:layout_width="22.0dip"
+            android:layout_height="22.0dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="11.0dip"
+            android:scaleType="fitXY"
+            android:src="@drawable/scanner"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/libui_titlebar_search_textinput"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="4.0dip"
+            android:layout_toLeftOf="@id/libui_dimensional_code_scanner"
+            android:layout_toRightOf="@id/libui_titlebar_searchbox_icon"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:text="@string/app_search"
+            android:textColor="#ffafafaf"
+            android:textSize="15.0dip" />
+
+        <TextView
+            android:id="@+id/libui_titlebar_search_last_textinput"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="4.0dip"
+            android:layout_toLeftOf="@id/libui_dimensional_code_scanner"
+            android:layout_toRightOf="@id/libui_titlebar_searchbox_icon"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:text="@string/app_name"
+            android:textColor="#ffafafaf"
+            android:textSize="15.0dip"
+            android:visibility="invisible" />
+    </RelativeLayout>
+</RelativeLayout>

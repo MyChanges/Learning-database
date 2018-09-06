@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="240dip"
+    android:background="@color/gift_popup_bg"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/gift_welfare_top"
+        android:layout_width="fill_parent"
+        android:layout_height="36.0dip"
+        android:background="#0affffff">
+
+        <TextView
+            android:id="@+id/gift_welfare"
+            android:layout_width="80.0dip"
+            android:layout_height="36.0dip"
+            android:gravity="center"
+            android:text="福利"
+            android:textColor="@color/alpha50_white"
+            android:textSize="14.0dip" />
+
+        <TextView
+            android:id="@+id/gift_welfare_num"
+            android:layout_width="20.0dip"
+            android:layout_height="13.0dip"
+            android:layout_alignRight="@id/gift_welfare"
+            android:layout_marginRight="9.0dip"
+            android:layout_marginTop="5.0dip"
+            android:background="@mipmap/checkin_gift_numberbg_small"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:textColor="@color/white"
+            android:textSize="10.0dip"
+            android:visibility="gone" />
+
+        <View
+            android:id="@+id/gift_welfare_split"
+            android:layout_width="1.0dip"
+            android:layout_height="18.0dip"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/gift_welfare"
+            android:background="#1dd8d8d8" />
+        <com.live.haiwang.livegiftsample.view.PagerSlidingTabStrip
+            android:id="@+id/gift_tabs"
+            android:layout_width="fill_parent"
+            android:layout_height="36.0dip"
+            android:layout_marginLeft="10.0dip"
+            android:layout_toRightOf="@id/gift_welfare_split"
+            app:pstsIndicatorColor="@android:color/transparent"
+            app:pstsIndicatorHeight="0.0dip"
+            app:pstsScrollOffset="40.0dip"
+            app:pstsDividerPadding="0.0dip"
+            app:pstsUnderlineHeight="0.0dip" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0px"
+            android:layout_alignParentBottom="true"
+            android:background="@color/alpha20_white" />
+    </RelativeLayout>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/gift_tabs_port_pager"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1.0"
+        android:paddingTop="4.0dip" />
+    <RelativeLayout
+        android:id="@+id/layout_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/gift_bottom_bar_height"
+        android:clickable="true">
+
+        <LinearLayout
+            android:id="@+id/layout_recharge"
+            android:layout_width="wrap_content"
+            android:layout_height="24.0dip"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="11.0dip"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/img_huajiaodou"
+                android:layout_width="26.0dip"
+                android:layout_height="24.0dip"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10.0dip"
+                android:src="@mipmap/beans_ic_icon" />
+
+            <TextView
+                android:id="@+id/tv_text_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="0"
+                android:textColor="#ffffcc00"
+                android:textSize="15.0sp" />
+
+            <ImageView
+                android:layout_width="8.0dip"
+                android:layout_height="15.0dip"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="2.0dip"
+                android:src="@mipmap/gift_icon_arrow" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_recharge_sun"
+            android:layout_width="wrap_content"
+            android:layout_height="24.0dip"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="11.0dip"
+            android:layout_toRightOf="@id/layout_recharge"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="26.0dip"
+                android:layout_height="24.0dip"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10.0dip"
+                android:src="@mipmap/live_icon_sun_small" />
+
+            <TextView
+                android:id="@+id/tv_text_num_sun"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="29030"
+                android:textColor="#ffffcc00"
+                android:textSize="15.0sp" />
+
+            <ImageView
+                android:layout_width="8.0dip"
+                android:layout_height="15.0dip"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="2.0dip"
+                android:src="@mipmap/gift_icon_arrow" />
+        </LinearLayout>
+        <!--com.huajiao.detail.gift.views.GiftSendButton -->
+        <Button
+            android:id="@+id/tv_send"
+            android:layout_width="130.0dip"
+            android:layout_height="36.0dip"
+            android:layout_alignParentBottom="true"
+            android:text="发送"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="3.0dip"
+            android:layout_marginRight="10.0dip" />
+    </RelativeLayout>
+    <!-- <com.huajiao.detail.gift.GiftPkTopView
+        android:id="@id/gift_port_pk_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="36.0dip"
+        android:orientation="vertical"
+        android:visibility="gone" />-->
+    <!-- com.huajiao.detail.gift.GiftViewPager-->
+</LinearLayout>

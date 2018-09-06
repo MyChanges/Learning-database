@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="inke_color_38">#80ffffff</color>
+    <color name="inke_color_151">#ff99cc00</color>
+    <color name="white">#ffffffff</color>
+    <color name="hall_live_item_shader">#ff4d4d4d</color>
+    <color name="room_usernum_bg_solid">#1f000000</color>
+    <color name="room_usernum_bg_stroke">#ffffffff</color>
+    <color name="room_head_stroke_bg">#ffa58ee2</color>
+    <color name="inke_color_11">#ff000000</color>
+    <color name="inke_color_1">#ff00d8c9</color>
+    <color name="inke_color_88">#ffa58ee2</color>
+    <color name="inke_color_12">#ffffffff</color>
+    <color name="inke_color_29">#00000000</color>
+    <color name="inke_color_100">#ff333333</color>
+    <color name="background_tab_pressed">#6633B5E5</color>
+    <color name="gift_popup_bg">#f2241030</color>
+    <color name="indicator_backgound">#ffffffff</color>
+    <color name="alpha50_white">#7fffffff</color>
+    <color name="alpha20_white">#3dffffff</color>
+</resources>

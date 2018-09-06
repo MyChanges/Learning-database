@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_milky_way_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.live.haiwang.livegiftsample.view.FallingPetalView
+        android:id="@+id/falling_petal_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <ImageView
+        android:id="@+id/iv_left_milky_way"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:visibility="visible"
+        android:src="@mipmap/petal_sea_bg" />
+</RelativeLayout>

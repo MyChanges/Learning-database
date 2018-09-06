@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/angle_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="invisible">
+
+    <ImageView
+        android:id="@+id/bg_flower_effects"
+        android:layout_width="330.0dip"
+        android:layout_height="330.0dip"
+        android:layout_centerInParent="true"
+        android:src="@mipmap/cherry_flower_girl_flower" />
+
+    <ImageView
+        android:id="@+id/angel_left_wing"
+        android:layout_width="218.0dip"
+        android:layout_height="352.0dip"
+        android:layout_marginTop="90.0dip"/>
+    <!--  android:src="@mipmap/angel_left_wing"  -->
+    <ImageView
+        android:id="@+id/angel_right_wing"
+        android:layout_width="218.0dip"
+        android:layout_height="352.0dip"
+        android:layout_marginLeft="188dip"
+        android:layout_marginTop="90.0dip"/>
+    <!--  android:src="@mipmap/angel_right_wing"  -->
+    <ImageView
+        android:id="@+id/cherry_flower_girl_body"
+        android:layout_width="195.0dip"
+        android:layout_height="282.0dip"
+        android:layout_marginLeft="95dip"
+        android:layout_marginTop="140.0dip" />
+    <!--  android:src="@mipmap/angel_body"  -->
+</RelativeLayout>

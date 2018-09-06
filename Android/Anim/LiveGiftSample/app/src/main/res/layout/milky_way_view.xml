@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_milky_way_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/sky_background"
+    android:visibility="visible">
+    <ImageView
+        android:id="@+id/iv_left_milky_way"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dip"
+        android:visibility="invisible"
+        android:src="@mipmap/half_milky_way_left" />
+    <ImageView
+        android:id="@+id/iv_right_milky_way"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:visibility="invisible"
+        android:layout_marginBottom="30dip"
+        android:layout_toRightOf="@+id/iv_left_milky_way"
+        android:src="@mipmap/half_milky_way_right" />
+    <ImageView
+        android:id="@+id/iv_left_butterfly"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:layout_marginBottom="160dip"
+        android:layout_marginLeft="140dip"
+        android:layout_above="@id/iv_left_milky_way"
+        android:src="@mipmap/left_butterfly" />
+    <ImageView
+        android:id="@+id/iv_right_butterfly"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:layout_marginBottom="160dip"
+        android:layout_toRightOf="@id/iv_left_butterfly"
+        android:layout_above="@id/iv_left_milky_way"
+        android:layout_marginLeft="25dip"
+        android:src="@mipmap/right_butterfly" />
+    <ImageView
+        android:id="@+id/iv_herd_boy"
+        android:layout_width="80dip"
+        android:layout_height="240dip"
+        android:visibility="invisible"
+        android:layout_marginLeft="100dip"
+        android:layout_above="@id/iv_left_milky_way"
+        android:src="@mipmap/herd_boy" />
+    <ImageView
+        android:id="@+id/iv_spinning_maid"
+        android:layout_width="120dip"
+        android:layout_height="300dip"
+        android:layout_toRightOf="@id/iv_herd_boy"
+        android:layout_marginLeft="-6dip"
+        android:layout_marginBottom="-50dip"
+        android:visibility="invisible"
+        android:layout_above="@id/iv_right_milky_way"
+        android:src="@mipmap/spinning_maid" />
+
+</RelativeLayout>

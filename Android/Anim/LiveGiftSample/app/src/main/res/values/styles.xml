@@ -1,0 +1,37 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="wrap_fill">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="inke_wrap_wrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="room_users_usernum_text" parent="@style/inke_wrap_wrap">
+        <item name="android:textSize">10.0sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:shadowColor">@color/hall_live_item_shader</item>
+        <item name="android:shadowDx">3.0</item>
+        <item name="android:shadowDy">3.0</item>
+        <item name="android:shadowRadius">3.0</item>
+    </style>
+    <style name="inke_tv_11_9" parent="@style/inke_wrap_wrap">
+        <item name="android:textSize">@dimen/dimens_sp_9</item>
+        <item name="android:textColor">@color/inke_color_11</item>
+    </style>
+    <style name="inke_btn_round_white_blue_34_21" parent="@style/inke_tv_11_9">
+        <item name="android:background">@drawable/inke_round_1_50</item>
+        <item name="android:layout_width">@dimen/dimens_dip_34</item>
+        <item name="android:layout_height">@dimen/dimens_dip_21</item>
+    </style>
+
+</resources>

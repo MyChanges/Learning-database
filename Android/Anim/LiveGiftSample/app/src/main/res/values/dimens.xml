@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="search_bar_height">56.0dip</dimen>
+    <dimen name="room_usernum_height">36.0dip</dimen>
+    <dimen name="room_usernum_stroke">1.0dip</dimen>
+    <dimen name="room_userportrait_height">35.0dip</dimen>
+    <dimen name="dimens_dip_32">32.0dip</dimen>
+    <dimen name="dimens_dip_90">90.0dip</dimen>
+    <dimen name="dimens_dip_38">38.0dip</dimen>
+    <dimen name="dimens_sp_9">9.0dip</dimen>
+    <dimen name="dimens_dip_50">50.0dip</dimen>
+    <dimen name="dimens_dip_34">34.0dip</dimen>
+    <dimen name="dimens_dip_21">21.0dip</dimen>
+    <dimen name="dimens_dip_30">30.0dip</dimen>
+    <dimen name="dimens_dip_35">35.0dip</dimen>
+    <dimen name="dimens_dip_36">36.0dip</dimen>
+    <dimen name="gift_item_width_height">48.0dip</dimen>
+    <dimen name="gift_indicator_height">7.0dip</dimen>
+    <dimen name="gift_bottom_bar_height">45.0dip</dimen>
+    <dimen name="indicator_height">41.0dip</dimen>
+</resources>

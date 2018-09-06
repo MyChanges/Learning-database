@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="30" android:drawable="@mipmap/travel_world_earth_fireworks_a" />
+    <item android:duration="30" android:drawable="@mipmap/travel_world_earth_fireworks_b" />
+    <item android:duration="30" android:drawable="@mipmap/travel_world_earth_fireworks_c" />
+    <item android:duration="30" android:drawable="@mipmap/travel_world_earth_fireworks_d" />
+    <item android:duration="30" android:drawable="@mipmap/travel_world_earth_fireworks_e" />
+    <item android:duration="30" android:drawable="@mipmap/travel_world_earth_fireworks_f" />
+    <item android:duration="30" android:drawable="@mipmap/travel_world_earth_fireworks_g" />
+    <item android:duration="30" android:drawable="@mipmap/travel_world_earth_fireworks_h" />
+    <item android:duration="30" android:drawable="@mipmap/travel_world_earth_fireworks_i" />
+    <item android:duration="30" android:drawable="@mipmap/travel_world_earth_fireworks_j" />
+</animation-list>

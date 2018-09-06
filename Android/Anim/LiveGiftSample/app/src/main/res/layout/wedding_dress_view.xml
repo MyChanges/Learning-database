@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_wedding_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/wedding_background"
+    android:visibility="visible">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dip"
+        android:layout_centerVertical="true"
+        android:gravity="bottom">
+
+        <ImageView
+            android:id="@+id/iv_flower_carpet1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:layout_centerInParent="true"
+            android:background="@mipmap/flower_carpet1" />
+
+        <ImageView
+            android:id="@+id/iv_flower_carpet2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:layout_centerInParent="true"
+            android:background="@mipmap/flower_carpet2" />
+
+        <ImageView
+            android:id="@+id/iv_flower_carpet3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:layout_centerInParent="true"
+            android:background="@mipmap/flower_carpet3" />
+
+        <ImageView
+            android:id="@+id/iv_flower_carpet4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:layout_centerInParent="true"
+            android:background="@mipmap/flower_carpet4" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_wedding_dress_container"
+        android:layout_width="400dip"
+        android:layout_height="400dip"
+        android:layout_centerInParent="true"
+        android:visibility="invisible">
+
+        <ImageView
+            android:id="@+id/iv_girl_in_wedding_dress"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/girl_in_wedding_dress" />
+
+        <ImageView
+            android:id="@+id/iv_wedding_dress"
+            android:layout_width="260dip"
+            android:layout_height="270dip"
+            android:layout_centerInParent="true"
+            android:background="@mipmap/wedding_dress"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/iv_head_wear"
+            android:layout_width="188dip"
+            android:layout_height="130dip"
+            android:layout_marginLeft="112dip"
+            android:layout_marginTop="25dip"
+            android:background="@mipmap/wedding_dress_headwear" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/iv_flaying_petals1"
+        android:layout_width="200dip"
+        android:layout_height="200dip"
+        android:layout_marginTop="30dip"
+        android:src="@mipmap/flying_petals1"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/iv_flaying_petals2"
+        android:layout_width="200dip"
+        android:layout_height="200dip"
+        android:layout_marginTop="30dip"
+        android:src="@mipmap/flying_petals2"
+        android:visibility="invisible" />
+</RelativeLayout>

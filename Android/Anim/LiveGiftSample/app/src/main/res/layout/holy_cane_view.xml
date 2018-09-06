@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/iv_holy_cane_light"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible"
+        android:layout_marginTop="60dip" />
+    <ImageView
+        android:id="@+id/iv_holy_cane"
+        android:layout_width="160dip"
+        android:layout_height="360dip"
+        android:layout_marginTop="50dip"
+        android:visibility="visible"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="-160dip"
+        android:src="@mipmap/holy_cane" />
+
+</RelativeLayout>

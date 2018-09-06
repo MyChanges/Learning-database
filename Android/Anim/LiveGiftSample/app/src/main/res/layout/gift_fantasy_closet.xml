@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/closet_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:visibility="visible">
+
+    <RelativeLayout
+        android:id="@+id/closet_big_container"
+        android:layout_width="match_parent"
+        android:layout_height="400dip">
+
+        <ImageView
+            android:id="@+id/closet_container"
+            android:layout_width="230dip"
+            android:layout_height="336dip"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dip"
+            android:background="@mipmap/fantasy_closet" />
+
+        <View
+            android:id="@+id/closet_divider"
+            android:layout_width="6dip"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:id="@+id/closet_left_door"
+            android:layout_width="98dip"
+            android:layout_height="278dip"
+            android:layout_marginTop="50dip"
+            android:layout_toLeftOf="@id/closet_divider"
+           />
+<!-- android:background="@mipmap/closet_left_door" -->
+        <ImageView
+            android:id="@+id/closet_right_door"
+            android:layout_width="98dip"
+            android:layout_height="278dip"
+            android:layout_marginTop="50dip"
+            android:layout_toRightOf="@id/closet_divider" />
+        <!-- android:background="@mipmap/closet_right_door" -->
+    </RelativeLayout>
+
+</RelativeLayout>

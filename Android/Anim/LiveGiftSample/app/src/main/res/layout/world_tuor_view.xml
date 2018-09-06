@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ll_rocket_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="invisible">
+
+        <ImageView
+            android:id="@+id/iv_rocket"
+            android:layout_width="80dip"
+            android:layout_height="260dip"
+            android:src="@mipmap/wt_long_march_rocket" />
+
+        <ImageView
+            android:id="@+id/iv_rocket_fire"
+            android:layout_width="45dip"
+            android:layout_height="100dip"
+            android:layout_marginTop="-12dip"
+            android:scaleType="fitXY"
+            android:src="@mipmap/wt_rocket_fire" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_left_sunflower"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:scaleType="fitXY"
+        android:src="@mipmap/wt_left_sunflower"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/iv_right_sunflower"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:scaleType="fitXY"
+        android:src="@mipmap/wt_right_sunflower"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/iv_common_build"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitXY"
+        android:src="@mipmap/wt_vassily_rose_cathedral"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/iv_world_tour_earth"
+        android:layout_width="200dip"
+        android:layout_height="200dip"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitXY"
+        android:src="@mipmap/wt_earth"
+        android:visibility="invisible" />
+    <ImageView
+        android:id="@+id/iv_walking_girl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="130dip"
+        android:scaleType="center"
+        android:src="@drawable/walking_girl"
+        android:visibility="invisible" />
+
+    <com.live.haiwang.livegiftsample.view.FallingEffectView
+        android:id="@+id/fev_heart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/iv_flying_object"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:scaleType="fitXY"
+        android:src="@mipmap/wt_flying_doves"
+        android:visibility="invisible" />
+    <ImageView
+        android:id="@+id/iv_firework1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dip"
+        android:src="@mipmap/fireworks_flower1"
+        android:visibility="invisible" />
+    <ImageView
+        android:id="@+id/iv_firework2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="45dip"
+        android:src="@mipmap/fireworks_flower3"
+        android:visibility="invisible" />
+    <ImageView
+        android:id="@+id/iv_firework3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="66dip"
+        android:src="@mipmap/fireworks_flower2"
+        android:visibility="invisible" />
+</RelativeLayout>

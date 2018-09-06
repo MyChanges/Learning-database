@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_milky_way_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible">
+
+
+    <ImageView
+        android:id="@+id/iv_heart_emitter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:layout_alignParentBottom="true"
+        android:src="@mipmap/heart_emitter" />
+
+    <com.live.haiwang.livegiftsample.view.BubbleView
+        android:id="@+id/bubble_view1"
+        android:layout_width="280dip"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dip" />
+
+    <com.live.haiwang.livegiftsample.view.BubbleView
+        android:id="@+id/bubble_view2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="150dip"
+        android:layout_marginTop="90dip" />
+
+    <RelativeLayout
+        android:layout_width="200dip"
+        android:layout_height="200dip"
+        android:id="@+id/rl_heart_container"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dip">
+
+        <ImageView
+            android:id="@+id/iv_shape_heart1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/shape_heart1" />
+
+        <ImageView
+            android:id="@+id/iv_shape_heart2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/shape_heart2" />
+
+        <ImageView
+            android:id="@+id/iv_shape_heart3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/shape_heart3" />
+
+        <ImageView
+            android:id="@+id/iv_shape_heart4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="invisible"
+            android:src="@mipmap/shape_heart4" />
+
+        <ImageView
+            android:id="@+id/iv_shape_heart5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/shape_heart5"
+            android:visibility="invisible" />
+    </RelativeLayout>
+    <ImageView
+        android:id="@+id/iv_tree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:src="@mipmap/love_bond_bg" />
+</RelativeLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dip">
+
+        <ImageView
+            android:id="@+id/iv_sky_wheel"
+            android:layout_width="460dip"
+            android:layout_height="460dip"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="-140dip"
+            android:src="@mipmap/sky_wheel"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/iv_sky_wheel_axle"
+            android:layout_width="130dip"
+            android:layout_height="225dip"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="50dip"
+            android:layout_marginRight="25dip"
+            android:src="@mipmap/sky_wheel_axle"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/iv_night_city"
+            android:layout_width="match_parent"
+            android:layout_height="220dip"
+            android:layout_alignParentBottom="true"
+            android:background="@mipmap/night_city"
+            android:visibility="gone" />
+    </RelativeLayout>
+</LinearLayout>

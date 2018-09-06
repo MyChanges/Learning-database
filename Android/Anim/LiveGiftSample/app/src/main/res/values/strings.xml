@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LiveGiftSample</string>
+    <string name="gift_send">送</string>
+    <string name="app_search">百度手机助手</string>
+    <string name="room_live">直播Live</string>
+    <string name="sixin_follow">关注</string>
+</resources>

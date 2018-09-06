@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/transparent">
+
+    <RelativeLayout
+        android:id="@+id/plane_content_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <RelativeLayout
+            android:id="@+id/rl_plane_body"
+            android:layout_width="fill_parent"
+            android:layout_height="120.0dip"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="120.0dip"
+            android:gravity="right">
+
+            <ImageView
+                android:id="@+id/iv_plane_body01"
+                android:layout_width="161.0dip"
+                android:layout_height="114.0dip"
+                android:src="@mipmap/game_plane_body03"
+                fresco:srcCompat="@mipmap/game_plane_body03" />
+
+            <ImageView
+                android:id="@+id/iv_plane_body02"
+                android:layout_width="161.0dip"
+                android:layout_height="114.0dip"
+                android:scaleType="fitXY"
+                android:src="@mipmap/game_plane_body02"
+                fresco:srcCompat="@mipmap/game_plane_body02" />
+
+            <ImageView
+                android:id="@+id/iv_plane_body03"
+                android:layout_width="161.0dip"
+                android:layout_height="114.0dip"
+                android:layout_alignTop="@id/iv_plane_body02"
+                android:src="@mipmap/game_plane_body01"
+                fresco:srcCompat="@mipmap/game_plane_body01" />
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/iv_sender_img"
+                android:layout_width="32.0dip"
+                android:layout_height="32.0dip"
+                android:layout_marginLeft="50.0dip"
+                android:layout_marginTop="15.0dip"
+                fresco:fadeDuration="0"
+                fresco:placeholderImage="@mipmap/default_head"
+                fresco:placeholderImageScaleType="fitXY"
+                fresco:roundAsCircle="true" />
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/iv_recv_img"
+                android:layout_width="31.0dip"
+                android:layout_height="31.0dip"
+                android:layout_marginLeft="87.0dip"
+                android:layout_marginTop="16.0dip"
+                fresco:fadeDuration="0"
+                fresco:placeholderImage="@mipmap/default_head"
+                fresco:placeholderImageScaleType="fitXY"
+                fresco:roundAsCircle="true" />
+
+            <ImageView
+                android:id="@+id/iv_plane_push_fire"
+                android:layout_width="107.0dip"
+                android:layout_height="40.0dip"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="50.0dip"
+                android:layout_marginLeft="-45.0dip"
+                android:layout_toRightOf="@id/iv_plane_body01"
+                android:scaleType="center"
+                android:src="@drawable/game_plane_body_push_fire_anim"
+                fresco:srcCompat="@mipmap/game_plane_push_fire01" />
+
+            <ImageView
+                android:id="@+id/iv_right_top_plane_fire"
+                android:layout_width="46.0dip"
+                android:layout_height="16.0dip"
+                android:layout_marginLeft="-13.0dip"
+                android:layout_marginTop="21.0dip"
+                android:src="@drawable/game_plane_fire_anim" />
+
+            <ImageView
+                android:id="@+id/iv_right_top_plane_bullet_first"
+                android:layout_width="46.0dip"
+                android:layout_height="16.0dip"
+                android:layout_marginLeft="-13.0dip"
+                android:layout_marginTop="21.0dip"
+                android:src="@mipmap/game_plane_bullet"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/iv_right_top_plane_bullet_second"
+                android:layout_width="46.0dip"
+                android:layout_height="16.0dip"
+                android:layout_marginLeft="-13.0dip"
+                android:layout_marginTop="21.0dip"
+                android:src="@mipmap/game_plane_bullet"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/iv_right_bottom_plane_fire"
+                android:layout_width="46.0dip"
+                android:layout_height="16.0dip"
+                android:layout_marginLeft="5.0dip"
+                android:layout_marginTop="72.0dip"
+                android:src="@drawable/game_plane_fire_anim"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/iv_right_bottom_plane_bullet_first"
+                android:layout_width="46.0dip"
+                android:layout_height="9.0dip"
+                android:layout_marginLeft="5.0dip"
+                android:layout_marginTop="72.0dip"
+                android:src="@mipmap/game_plane_bullet"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/iv_right_bottom_plane_bullet_second"
+                android:layout_width="46.0dip"
+                android:layout_height="9.0dip"
+                android:layout_marginLeft="5.0dip"
+                android:layout_marginTop="72.0dip"
+                android:src="@mipmap/game_plane_bullet"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_left_plane_body"
+            android:layout_width="fill_parent"
+            android:layout_height="120.0dip"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="-400.0dip"
+            android:gravity="right"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/iv_left_plane_body01"
+                android:layout_width="161.0dip"
+                android:layout_height="114.0dip"
+                android:src="@mipmap/game_plane_body03"
+                fresco:srcCompat="@mipmap/game_plane_body03" />
+
+            <ImageView
+                android:id="@+id/iv_left_plane_body02"
+                android:layout_width="161.0dip"
+                android:layout_height="114.0dip"
+                android:scaleType="fitXY"
+                android:src="@mipmap/game_plane_body02"
+                fresco:srcCompat="@mipmap/game_plane_body02" />
+
+            <ImageView
+                android:id="@+id/iv_left_plane_body03"
+                android:layout_width="161.0dip"
+                android:layout_height="114.0dip"
+                android:layout_alignTop="@id/iv_left_plane_body02"
+                android:src="@mipmap/game_plane_body01"
+                fresco:srcCompat="@mipmap/game_plane_body01" />
+
+            <ImageView
+                android:id="@+id/iv_left_plane_push_fire"
+                android:layout_width="107.0dip"
+                android:layout_height="40.0dip"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="50.0dip"
+                android:layout_marginLeft="-45.0dip"
+                android:layout_toRightOf="@id/iv_left_plane_body01"
+                android:scaleType="center"
+                android:src="@drawable/game_plane_body_push_fire_anim"
+                fresco:srcCompat="@mipmap/game_plane_push_fire01" />
+
+            <ImageView
+                android:id="@+id/iv_left_top_plane_fire"
+                android:layout_width="46.0dip"
+                android:layout_height="16.0dip"
+                android:layout_marginLeft="-13.0dip"
+                android:layout_marginTop="21.0dip"
+                android:src="@drawable/game_plane_fire_anim"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/iv_left_top_plane_bullet_first"
+                android:layout_width="46.0dip"
+                android:layout_height="9.0dip"
+                android:layout_marginLeft="-13.0dip"
+                android:layout_marginTop="21.0dip"
+                android:src="@mipmap/game_plane_bullet"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/iv_letf_top_plane_bullet_second"
+                android:layout_width="46.0dip"
+                android:layout_height="9.0dip"
+                android:layout_marginLeft="-13.0dip"
+                android:layout_marginTop="21.0dip"
+                android:src="@mipmap/game_plane_bullet"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/iv_left_bottom_plane_fire"
+                android:layout_width="46.0dip"
+                android:layout_height="16.0dip"
+                android:layout_marginLeft="5.0dip"
+                android:layout_marginTop="72.0dip"
+                android:src="@drawable/game_plane_fire_anim"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/iv_left_bottom_plane_bullet_first"
+                android:layout_width="46.0dip"
+                android:layout_height="9.0dip"
+                android:layout_marginLeft="5.0dip"
+                android:layout_marginTop="72.0dip"
+                android:src="@mipmap/game_plane_bullet"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/iv_letf_bottom_plane_bullet_second"
+                android:layout_width="46.0dip"
+                android:layout_height="9.0dip"
+                android:layout_marginLeft="5.0dip"
+                android:layout_marginTop="72.0dip"
+                android:src="@mipmap/game_plane_bullet"
+                android:visibility="gone" />
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/iv_left_sender_img"
+                android:layout_width="32.0dip"
+                android:layout_height="32.0dip"
+                android:layout_marginLeft="50.0dip"
+                android:layout_marginTop="15.0dip"
+                fresco:fadeDuration="0"
+                fresco:placeholderImage="@mipmap/default_head"
+                fresco:placeholderImageScaleType="fitXY"
+                fresco:roundAsCircle="true" />
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/iv_left_recv_img"
+                android:layout_width="31.0dip"
+                android:layout_height="31.0dip"
+                android:layout_marginLeft="87.0dip"
+                android:layout_marginTop="16.0dip"
+                fresco:fadeDuration="0"
+                fresco:placeholderImage="@mipmap/default_head"
+                fresco:placeholderImageScaleType="fitXY"
+                fresco:roundAsCircle="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

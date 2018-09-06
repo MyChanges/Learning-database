@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rl_meteor_bg"
+    android:visibility="visible"
+    android:background="@mipmap/starry_sky">
+    <ImageView
+        android:id="@+id/iv_meteor1"
+        android:layout_width="88dip"
+        android:layout_height="50dip"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="-50dip"
+        android:layout_marginRight="-88dip"
+        android:src="@mipmap/meteor" />
+    <ImageView
+        android:id="@+id/iv_meteor2"
+        android:layout_width="88dip"
+        android:layout_height="50dip"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="-70dip"
+        android:layout_marginRight="80dip"
+        android:src="@mipmap/meteor" />
+    <ImageView
+        android:id="@+id/iv_meteor6"
+        android:layout_width="88dip"
+        android:layout_height="50dip"
+        android:layout_marginTop="-50dip"
+        android:layout_marginLeft="120dip"
+        android:src="@mipmap/meteor" />
+    <ImageView
+        android:id="@+id/iv_meteor7"
+        android:layout_width="88dip"
+        android:layout_height="50dip"
+        android:layout_marginTop="-70dip"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="-70dip"
+        android:src="@mipmap/meteor" />
+    <ImageView
+        android:id="@+id/iv_meteor3"
+        android:layout_width="88dip"
+        android:layout_height="50dip"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="-50dip"
+        android:layout_marginRight="30dip"
+        android:src="@mipmap/meteor" />
+    <ImageView
+        android:id="@+id/iv_meteor4"
+        android:layout_width="88dip"
+        android:layout_height="50dip"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="-70dip"
+        android:src="@mipmap/meteor" />
+    <ImageView
+        android:id="@+id/iv_meteor5"
+        android:layout_width="88dip"
+        android:layout_height="50dip"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="60dip"
+        android:layout_marginRight="-88dip"
+        android:src="@mipmap/meteor" />
+</RelativeLayout>

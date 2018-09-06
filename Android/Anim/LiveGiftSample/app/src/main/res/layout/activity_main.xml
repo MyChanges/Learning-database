@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg_record_group2"
+    tools:context="com.live.haiwang.livegiftsample.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/rl_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/valentines"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="守护之剑"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <Button
+            android:id="@+id/shot_plane"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/valentines"
+            android:text="火箭"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <Button
+            android:id="@+id/mygirl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/shot_plane"
+            android:visibility="invisible"
+            android:text="女神来了"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <Button
+            android:id="@+id/gift_closet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/mygirl"
+            android:text="梦幻衣柜"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <Button
+            android:id="@+id/travel_world"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/valentines"
+            android:text="环游世界"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <Button
+            android:id="@+id/reunion_dinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/shot_plane"
+            android:layout_toRightOf="@id/travel_world"
+            android:text="环游世界"
+            android:visibility="visible"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <Button
+            android:id="@+id/egg_rabbit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mygirl"
+            android:layout_toRightOf="@id/reunion_dinner"
+            android:text="彩蛋兔子"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <Button
+            android:id="@+id/fallen_angel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mygirl"
+            android:layout_toRightOf="@id/egg_rabbit"
+            android:text="天使"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <Button
+            android:id="@+id/meteor_rain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/travel_world"
+            android:text="流星雨"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <Button
+            android:id="@+id/wedding_dress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/travel_world"
+            android:layout_toRightOf="@id/meteor_rain"
+            android:visibility="invisible"
+            android:text="婚纱"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp" />
+        <Button
+        android:id="@+id/milky_way"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/travel_world"
+        android:layout_toRightOf="@id/wedding_dress"
+        android:text="牛郎织女"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+        <Button
+            android:id="@+id/sky_wheel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/travel_world"
+            android:layout_toRightOf="@id/milky_way"
+            android:text="摩天轮"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp" />
+        <Button
+            android:id="@+id/love_bond"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sky_wheel"
+            android:text="心花怒放"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp" />
+        <Button
+            android:id="@+id/holy_cane"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sky_wheel"
+            android:layout_toRightOf="@id/love_bond"
+            android:text="神殿法杖"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp" />
+        <Button
+            android:id="@+id/petal_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sky_wheel"
+            android:layout_toRightOf="@id/holy_cane"
+            android:text="粉红海"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <Button
+            android:id="@+id/sun_rise"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sky_wheel"
+            android:text="日出"
+            android:layout_toRightOf="@id/petal_view"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp" />
+        <Button
+            android:id="@+id/enter_room"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sun_rise"
+            android:text="入场"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/img_scroll_opening" />
+
+        <LinearLayout
+            android:id="@+id/emoji_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/img_scroll_paper_opening"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/emoji"
+                android:layout_width="140dip"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:singleLine="true" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/img_scroll_opening" />
+    </LinearLayout>
+
+    <include
+        layout="@layout/libui_titlebar_search_style_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/search_bar_height"
+        android:visibility="invisible" />
+
+    <FrameLayout
+        android:id="@+id/gift_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.live.haiwang.livegiftsample.view.GiftPagerLayout
+        android:id="@+id/gift_pager"
+        android:layout_alignParentBottom="true"
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.live.haiwang.livegiftsample.view.WideTextView
+        android:id="@+id/wide_text"
+        android:layout_width="wrap_content"
+        android:layout_height="30dip"
+        android:layout_centerVertical="true"/>
+
+</RelativeLayout>

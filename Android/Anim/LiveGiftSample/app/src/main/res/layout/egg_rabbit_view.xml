@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom|center_horizontal"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:id="@+id/three_rabbit_container"
+        android:layout_width="230dip"
+        android:layout_height="266dip"
+        android:visibility="invisible">
+        <ImageView
+            android:id="@+id/left_rabbit_hide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:visibility="invisible"
+            android:layout_marginBottom="10dip"
+            android:src="@mipmap/rabbit_left" />
+        <ImageView
+            android:id="@+id/right_rabbit_hide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="60dip"
+            android:src="@mipmap/rabbit_right" />
+        <ImageView
+            android:id="@+id/middle_rabbit_hide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:layout_centerHorizontal="true"
+            android:src="@mipmap/rabbit_middle" />
+        <ImageView
+            android:id="@+id/big_egg"
+            android:layout_width="130dip"
+            android:layout_height="160dip"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:src="@mipmap/big_egg" />
+        <ImageView
+            android:id="@+id/left_rabbit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dip"
+            android:src="@mipmap/rabbit_left" />
+        <ImageView
+            android:id="@+id/right_rabbit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:visibility="invisible"
+            android:layout_marginBottom="60dip"
+            android:src="@mipmap/rabbit_right" />
+        <ImageView
+            android:id="@+id/middle_rabbit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:layout_centerHorizontal="true"
+            android:src="@mipmap/rabbit_middle" />
+    </RelativeLayout>
+    <ImageView
+        android:id="@+id/grass_land"
+        android:layout_width="match_parent"
+        android:layout_height="168dip"
+        android:background="@mipmap/grass_land" />
+</LinearLayout>

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/id_rootview"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout
+        android:id="@+id/id_secondframe"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="invisible">
+
+        <ImageView
+            android:id="@+id/id_window"
+            android:layout_width="fill_parent"
+            android:layout_height="270.0dip"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="70.0dip"
+            android:alpha="0.0"
+            android:padding="5.0dip"
+            android:scaleType="fitXY"
+            android:src="@mipmap/rdinner_window" />
+
+        <com.live.haiwang.livegiftsample.view.ReunionFireworksView
+            android:id="@+id/id_fireworkone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="190.0dip"
+            android:layout_marginLeft="60.0dip" />
+
+        <com.live.haiwang.livegiftsample.view.ReunionFireworksView
+            android:id="@+id/id_fireworktwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="175.0dip"
+            android:layout_marginLeft="120.0dip" />
+
+        <com.live.haiwang.livegiftsample.view.ReunionFireworksView
+            android:id="@+id/id_fireworkthree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="140.0dip"
+            android:layout_marginLeft="160.0dip" />
+
+        <ImageView
+            android:id="@+id/id_inkeone"
+            android:layout_width="140.0dip"
+            android:layout_height="170.0dip"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="78.0dip"
+            android:scaleType="fitXY"
+            android:src="@mipmap/rdinner_one" />
+
+        <ImageView
+            android:id="@+id/id_inketwo"
+            android:layout_width="100.0dip"
+            android:layout_height="100.0dip"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="90.0dip"
+            android:layout_marginLeft="105.0dip"
+            android:scaleType="fitXY"
+            android:src="@mipmap/rdinner_two" />
+
+        <ImageView
+            android:id="@+id/id_inkethree"
+            android:layout_width="100.0dip"
+            android:layout_height="100.0dip"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="85.0dip"
+            android:layout_marginLeft="200.0dip"
+            android:scaleType="fitXY"
+            android:src="@mipmap/rdinner_three" />
+
+        <ImageView
+            android:id="@+id/id_inkefour"
+            android:layout_width="120.0dip"
+            android:layout_height="110.0dip"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="75.0dip"
+            android:layout_marginRight="-30.0dip"
+            android:scaleType="fitXY"
+            android:src="@mipmap/rdinner_four" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="145.0dip"
+            android:layout_alignParentBottom="true"
+            android:scaleType="fitXY"
+            android:src="@mipmap/rdinner_table" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/id_firstframe"
+        android:layout_width="fill_parent"
+        android:layout_height="290.0dip"
+        android:layout_alignParentBottom="true">
+
+        <ImageView
+            android:id="@+id/id_leftdoor"
+            android:layout_width="62.0dip"
+            android:layout_height="100.0dip"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="90.0dip"
+            android:scaleType="fitXY"
+            android:src="@mipmap/rdinner_leftdoor"
+            android:translationX="-29.0dip" />
+
+        <ImageView
+            android:id="@+id/id_rightdoor"
+            android:layout_width="62.0dip"
+            android:layout_height="100.0dip"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="90.0dip"
+            android:scaleType="fitXY"
+            android:src="@mipmap/rdinner_rightdoor"
+            android:translationX="33.0dip" />
+
+        <ImageView
+            android:id="@+id/id_light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:alpha="0.0"
+            android:src="@mipmap/rdinner_light" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="fitXY"
+            android:src="@mipmap/rdinner_home" />
+
+        <ImageView
+            android:id="@+id/id_lanternlt"
+            android:layout_width="40.0dip"
+            android:layout_height="52.0dip"
+            android:layout_marginLeft="8.0dip"
+            android:layout_marginTop="66.0dip"
+            android:scaleType="fitXY"
+            android:src="@mipmap/rdinner_lantern" />
+
+        <ImageView
+            android:id="@+id/id_lanternlb"
+            android:layout_width="40.0dip"
+            android:layout_height="52.0dip"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginTop="100.0dip"
+            android:scaleType="fitXY"
+            android:src="@mipmap/rdinner_lantern" />
+
+        <ImageView
+            android:id="@+id/id_lanternrt"
+            android:layout_width="40.0dip"
+            android:layout_height="52.0dip"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="8.0dip"
+            android:layout_marginTop="70.0dip"
+            android:scaleType="fitXY"
+            android:src="@mipmap/rdinner_lantern" />
+
+        <ImageView
+            android:id="@+id/id_lanternrb"
+            android:layout_width="40.0dip"
+            android:layout_height="52.0dip"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="6.0dip"
+            android:layout_marginTop="104.0dip"
+            android:scaleType="fitXY"
+            android:src="@mipmap/rdinner_lantern" />
+
+        <ImageView
+            android:layout_width="80.0dip"
+            android:layout_height="100.0dip"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10.0dip"
+            android:layout_marginLeft="70.0dip"
+            android:src="@mipmap/rdinner_snower" />
+
+        <RelativeLayout
+            android:id="@+id/id_inkeplaying"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10.0dip"
+            android:layout_marginLeft="385.0dip">
+
+            <ImageView
+                android:layout_width="110.0dip"
+                android:layout_height="110.0dip"
+                android:layout_marginLeft="68.0dip"
+                android:layout_marginTop="18.0dip"
+                android:src="@mipmap/rdinner_first" />
+
+            <ImageView
+                android:layout_width="100.0dip"
+                android:layout_height="100.0dip"
+                android:src="@mipmap/rdinner_fire" />
+
+            <ImageView
+                android:id="@+id/id_inkeplaying_fire"
+                android:layout_width="60.0dip"
+                android:layout_height="60.0dip"
+                android:layout_marginTop="38.0dip"
+                android:background="@drawable/rdinner_fireframe" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

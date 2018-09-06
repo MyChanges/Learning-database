@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rl_enter_room">
+
+    <ImageView
+        android:id="@+id/enter_room_bg"
+        android:layout_width="match_parent"
+        android:layout_height="30dip"
+        android:layout_centerVertical="true"
+        android:scaleType="fitXY"
+        android:src="@mipmap/into_room_background"
+        android:visibility="visible" />
+    <ImageView
+        android:id="@+id/enter_room_medal"
+        android:layout_width="55dip"
+        android:layout_height="68dip"
+        android:layout_centerVertical="true"
+        android:background="@mipmap/sacred"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/enter_room_rank"
+        android:layout_width="wrap_content"
+        android:layout_height="25dip"
+        android:layout_toRightOf="@id/enter_room_medal"
+        android:layout_marginLeft="-10dip"
+        android:layout_centerVertical="true"
+        android:scaleType="fitXY"
+        android:src="@mipmap/magic_knight"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/enter_room_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/enter_room_rank"
+        android:background="@color/inke_color_29"
+        android:gravity="center"
+        android:maxLines="1"
+        android:shadowColor="@color/inke_color_100"
+        android:shadowDx="1.0"
+        android:shadowDy="1.0"
+        android:shadowRadius="1.0"
+        android:text="一个爱做梦的孩子进入直播间"
+        android:textColor="@color/inke_color_12"
+        android:textSize="16.0sp"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/enter_room_twinkle"
+        android:layout_width="wrap_content"
+        android:layout_height="30dip"
+        android:layout_centerVertical="true"
+        android:minWidth="12.0dip"
+        android:scaleType="fitXY"
+        android:src="@mipmap/into_room_twinkle"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/enter_room_scroll"
+        android:layout_width="wrap_content"
+        android:layout_height="30dip"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="-35dip"
+        android:minWidth="30.0dip"
+        android:scaleType="fitXY"
+        android:src="@mipmap/into_room_scroll"
+        android:visibility="gone" />
+</RelativeLayout>

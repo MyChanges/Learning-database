@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.live.haiwang.livegiftsample.view.CheckableRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="72.0dip"
+    android:background="@drawable/list_item_bg_selector"
+    android:gravity="center|top">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/img_gift"
+        android:layout_width="@dimen/gift_item_width_height"
+        android:layout_height="@dimen/gift_item_width_height"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/img_gift_gif"
+        android:layout_width="48.0dip"
+        android:layout_height="48.0dip"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/img_bursts"
+        android:layout_width="12.0dip"
+        android:layout_height="12.0dip"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="2.0dip"
+        android:layout_marginTop="2.0dip"
+        android:src="@mipmap/present_bursts" />
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/img_tag"
+        android:layout_width="70.0dip"
+        android:layout_height="48.0dip"
+        android:layout_alignParentRight="true" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_gift"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0.0dip"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="跑车"
+        android:textColor="@color/gift_text_color_name_selector_bing"
+        android:textSize="10.0dip" />
+
+    <TextView
+        android:id="@+id/tv_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="2.0dip"
+        android:layout_marginTop="-2.0dip"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="敬请期待"
+        android:textColor="@color/gift_text_color_selector_bing"
+        android:textSize="8.0dip" />
+
+    <TextView
+        android:id="@+id/welfare_num"
+        android:layout_width="20.0dip"
+        android:layout_height="13.0dip"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="2.0dip"
+        android:layout_marginTop="2.0dip"
+        android:background="@mipmap/checkin_gift_numberbg_small"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:textColor="@color/white"
+        android:textSize="10.0dip"
+        android:visibility="gone" />
+</com.live.haiwang.livegiftsample.view.CheckableRelativeLayout>

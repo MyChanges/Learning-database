@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="100" android:drawable="@mipmap/cane_path1" />
+    <item android:duration="100" android:drawable="@mipmap/cane_path2" />
+    <item android:duration="100" android:drawable="@mipmap/cane_path3" />
+    <item android:duration="100" android:drawable="@mipmap/cane_path4" />
+    <item android:duration="100" android:drawable="@mipmap/cane_path5" />
+    <item android:duration="100" android:drawable="@mipmap/cane_path6" />
+    <item android:duration="100" android:drawable="@mipmap/cane_path7" />
+    <item android:duration="100" android:drawable="@mipmap/cane_path8" />
+    <item android:duration="100" android:drawable="@mipmap/cane_path9" />
+    <item android:duration="100" android:drawable="@mipmap/cane_path10" />
+</animation-list>

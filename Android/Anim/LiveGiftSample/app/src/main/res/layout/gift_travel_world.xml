@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/travel_world_releative"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/travel_world_earth_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_travel_world_earth_sender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80.0dip"
+            android:drawableLeft="@mipmap/yacht_sender_dot"
+            android:text="土豪送的环游世界"
+            android:ellipsize="middle"
+            android:shadowColor="@color/inke_color_151"
+            android:shadowDx="2.0"
+            android:shadowDy="2.0"
+            android:shadowRadius="1.0"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:textSize="16.0dip" />
+
+        <ImageView
+            android:id="@+id/travel_world_earth_parachute_background"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="fitXY"
+            android:src="@mipmap/travel_world_earth_parachute_background"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/travel_world_earth_light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:scaleType="fitXY"
+            android:src="@mipmap/travel_world_earth_light"
+            android:visibility="invisible" />
+
+        <com.live.haiwang.livegiftsample.view.TravelWorldEarthView
+            android:id="@+id/img_travel_earth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="-50.0dip"
+            android:layout_marginLeft="-350.0dip"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/travel_world_earth_build_a_first"
+            android:layout_width="80.0dip"
+            android:layout_height="80.0dip"
+            android:src="@mipmap/travel_world_earth_build_a_first"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/travel_world_earth_build_a"
+            android:layout_width="84.0dip"
+            android:layout_height="98.0dip"
+            android:src="@mipmap/travel_world_earth_build_a"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/travel_world_earth_build_c"
+            android:layout_width="103.0dip"
+            android:layout_height="125.0dip"
+            android:src="@mipmap/travel_world_earth_build_c"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/travel_world_earth_build_b"
+            android:layout_width="82.0dip"
+            android:layout_height="98.0dip"
+            android:src="@mipmap/travel_world_earth_build_b"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/travel_world_earth_build_d"
+            android:layout_width="170.0dip"
+            android:layout_height="120.0dip"
+            android:src="@mipmap/travel_world_earth_build_d"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/travel_world_earth_build_f"
+            android:layout_width="92.0dip"
+            android:layout_height="76.0dip"
+            android:src="@mipmap/travel_world_earth_build_f"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/travel_world_earth_build_i"
+            android:layout_width="80.0dip"
+            android:layout_height="75.0dip"
+            android:src="@mipmap/travel_world_earth_build_i"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/travel_world_earth_build_h"
+            android:layout_width="95.0dip"
+            android:layout_height="80.0dip"
+            android:src="@mipmap/travel_world_earth_build_h"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/travel_world_earth_build_e"
+            android:layout_width="108.0dip"
+            android:layout_height="92.0dip"
+            android:src="@mipmap/travel_world_earth_build_e"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/travel_world_earth_build_g"
+            android:layout_width="100.0dip"
+            android:layout_height="95.0dip"
+            android:src="@mipmap/travel_world_earth_build_g"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/travel_world_plane"
+            android:layout_width="100.0dip"
+            android:layout_height="40.0dip"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="350.0dip"
+            android:src="@mipmap/travel_world_plane"
+            android:visibility="invisible" />
+
+        <RelativeLayout
+            android:id="@+id/travel_world_fireballoon_container"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:visibility="invisible">
+
+            <ImageView
+                android:id="@+id/travel_world_fireballoon"
+                android:layout_width="270.0dip"
+                android:layout_height="350.0dip"
+                android:src="@mipmap/travel_world_fireballoon" />
+
+            <ImageView
+                android:layout_width="215.0dip"
+                android:layout_height="160.0dip"
+                android:layout_marginLeft="25.0dip"
+                android:layout_marginTop="240.0dip"
+                android:src="@mipmap/travel_world_fireballoon_basket_light" />
+
+            <ImageView
+                android:layout_width="170.0dip"
+                android:layout_height="100.0dip"
+                android:layout_marginLeft="35.0dip"
+                android:layout_marginTop="250.0dip"
+                android:src="@mipmap/travel_world_fireballoon_basket_stars" />
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/img_travel_world_fireballoon_left"
+                android:layout_width="70.0dip"
+                android:layout_height="70.0dip"
+                android:layout_marginLeft="52.0dip"
+                android:layout_marginTop="275.0dip"
+                fresco:placeholderImage="@mipmap/default_head"
+                fresco:roundAsCircle="true"
+                fresco:roundingBorderColor="@color/inke_color_38"
+                fresco:roundingBorderWidth="2.0dip" />
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/img_travel_world_fireballoon_right"
+                android:layout_width="70.0dip"
+                android:layout_height="70.0dip"
+                android:layout_marginLeft="140.0dip"
+                android:layout_marginTop="275.0dip"
+                fresco:placeholderImage="@mipmap/default_head"
+                fresco:roundAsCircle="true"
+                fresco:roundingBorderColor="@color/inke_color_38"
+                fresco:roundingBorderWidth="2.0dip" />
+
+            <ImageView
+                android:layout_width="270.0dip"
+                android:layout_height="80.0dip"
+                android:layout_marginLeft="-5.0dip"
+                android:layout_marginTop="320.0dip"
+                android:src="@mipmap/travel_world_fireballoon_basket" />
+        </RelativeLayout>
+
+        <com.live.haiwang.livegiftsample.view.TravelWorldBezierView
+            android:id="@+id/bezier_path_veiw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/travel_world_earth_heart_a"
+            android:layout_width="320.0dip"
+            android:layout_height="270.0dip"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100.0dip"
+            android:src="@mipmap/travel_world_earth_heart"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/travel_world_earth_heart_b"
+            android:layout_width="320.0dip"
+            android:layout_height="270.0dip"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100.0dip"
+            android:src="@mipmap/travel_world_earth_heart"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/travel_world_earth_heart_c"
+            android:layout_width="160.0dip"
+            android:layout_height="135.0dip"
+            android:layout_marginLeft="40.0dip"
+            android:layout_marginTop="270.0dip"
+            android:src="@mipmap/travel_world_earth_heart"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/travel_world_earth_heart_d"
+            android:layout_width="160.0dip"
+            android:layout_height="135.0dip"
+            android:layout_marginLeft="40.0dip"
+            android:layout_marginTop="270.0dip"
+            android:src="@mipmap/travel_world_earth_heart"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/travel_world_earth_fireworks"
+            android:layout_width="80.0dip"
+            android:layout_height="350.0dip"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="200.0dip"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/travel_world_earth_test"
+            android:layout_width="205.0dip"
+            android:layout_height="122.0dip"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="170.0dip"
+            android:src="@mipmap/travel_world_earth_test_a"
+            android:visibility="invisible" />
+
+        <RelativeLayout
+            android:id="@+id/travel_world_earth_parachute_left_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible">
+
+            <ImageView
+                android:id="@+id/travel_world_earth_parachute_left"
+                android:layout_width="160.0dip"
+                android:layout_height="160.0dip"
+                android:layout_marginRight="40.0dip"
+                android:layout_marginTop="20.0dip"
+                android:src="@mipmap/travel_world_earth_parachute_left" />
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/img_travel_world_earth_parachute_left"
+                android:layout_width="80.0dip"
+                android:layout_height="80.0dip"
+                android:layout_alignRight="@id/travel_world_earth_parachute_left"
+                android:layout_marginRight="15.0dip"
+                android:layout_marginTop="130.0dip"
+                fresco:placeholderImage="@mipmap/default_head"
+                fresco:roundAsCircle="true"
+                fresco:roundingBorderColor="@color/inke_color_38"
+                fresco:roundingBorderWidth="2.0dip" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/travel_world_earth_parachute_right_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible">
+
+            <ImageView
+                android:id="@+id/travel_world_earth_parachute_right"
+                android:layout_width="170.0dip"
+                android:layout_height="170.0dip"
+                android:layout_marginRight="10.0dip"
+                android:layout_marginTop="20.0dip"
+                android:src="@mipmap/travel_world_earth_parachute_right" />
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/img_travel_world_earth_parachute_right"
+                android:layout_width="80.0dip"
+                android:layout_height="80.0dip"
+                android:layout_alignRight="@id/travel_world_earth_parachute_right"
+                android:layout_marginRight="40.0dip"
+                android:layout_marginTop="130.0dip"
+                fresco:placeholderImage="@mipmap/default_head"
+                fresco:roundAsCircle="true"
+                fresco:roundingBorderColor="@color/inke_color_38"
+                fresco:roundingBorderWidth="2.0dip" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>
